@@ -1,13 +1,27 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 
 const WaterSupply = () => {
+
+
+  const [water, setWater] = useState([]);
+  useEffect(() => {
+      async function waterdata() {
+          const waterdatas = await fetch('https://tattvamkolkata.com/wp-tattvam/wp-json/wp/v2/pages/33');
+          const waterdatass = await waterdatas.json();
+          setWater(waterdatass.acf.specification.water_supply);
+          //console.log(waterdatass.acf.specification.water_supply);
+      }
+      waterdata();
+
+    },[])
+
+
     return (
         <div>
-          <div className='wall-content'>
+          <div className='specification-ct'>
              <ul>
-              <li> Colour anodized/powder coated premium aluminium sliding or casement windows</li>    
-              <li>Glass railings in balconies and terraces</li>   
-              <li>MS railing in utility areas</li>       
+              <li>{water.water_supplyone}</li>
+              
              </ul>        
           </div>
         </div>
@@ -15,3 +29,6 @@ const WaterSupply = () => {
 }
 
 export default WaterSupply
+
+
+

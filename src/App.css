@@ -37,17 +37,8 @@ section#pricee-sctions h3 {
 
 section#Specifications {
     padding-bottom: 70px;
-    background-color: #e7e7e7;
+    background-color: #e5f6f0;
     padding-top: 80px;
-}
-.connect-right h5 {
-    color: #fff;
-    font-family: Red Hat Display,sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 25px;
-    margin-bottom: 0;
-    margin-top: 20px;
 }
 
 
@@ -358,7 +349,7 @@ code {
 }
 
 section.qty-comfort {
-    background: #fff;
+    background:#e5f6f0;
     padding-top: 112px;
     padding-bottom: 80px;
     position: relative;
@@ -393,13 +384,11 @@ h4 {
     background-position: 50px 230px;
     background-repeat: no-repeat;
     background-size: contain;
-    padding-bottom: 150px;
+    padding-bottom:260px;
 
 }
 
-.qty-text p {
-    max-width: 345px;
-}
+
 
 .qty-text h4 {
     text-align: left;
@@ -464,7 +453,6 @@ h4 {
     align-items: center;
     border-radius: 100%;
     justify-content: center;
-    border: 1px dashed #707070;
     margin-bottom: 15px;
 }
 
@@ -491,8 +479,7 @@ section#building .swiper.swiper-initialized.swiper-horizontal.swiper-pointer-eve
     margin-left: 48px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    
 }
 
 .number-colm:nth-child(1), .number-colm:nth-child(3) {
@@ -570,9 +557,8 @@ section#building h4 {
 }
 
 section#building {
-    background: #fff;
+    background: #e5f6f0;
 }
-
 
 
 .App-logo {
@@ -667,6 +653,7 @@ section#building .slide-contents h4 {
 
 .qty-text.sec-oness h3 {
     font-size: 20px;
+    color: #1d1d1d;
     margin-bottom: 5px;
     font-family: 'Red Hat Display', sans-serif;
     line-height: 35px;
@@ -697,11 +684,10 @@ section#building .swiper-pagination {
 }
 
 section#building .swiper-slide {
-    background: #fff;
+    background:#e5f6f0;
     position: relative;
     padding: 10px
 }
-
 
 section#building .swiper-wrapper {
     min-height: 332px;
@@ -785,7 +771,7 @@ section#gallery {
 }
 
 .galleryvideoA {
-    background-color: #e7e7e7 !important;
+    background-color: #e5f6f0 !important;
 
 
 }
@@ -795,14 +781,31 @@ section#gallery {
     padding: 70px 0 0 0;
     color: #154b37 !important;
 }
-
-
+.btns-se {
+    text-align: center;
+    background: #e5f6f0;
+}
+a.browser-pdf {
+    display: inline-block;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    background-color: #154b37;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
 
 section#project-developed {
     text-align: center;
     padding-top: 0px;
     padding-top: 70px;
-    background-color: #e7e7e7;
+    background-color:#e5f6f0;
 }
 
 .logo-wrapper {
@@ -890,6 +893,15 @@ section#project-developed {
     color: #b8b8b8;
     margin-bottom: 25px;
 }
+.connect-right h5 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-top: 20px;
+}
 
 .connect-right li {
     list-style-type: none;
@@ -902,9 +914,8 @@ section#project-developed {
     width: 100%;
 }
 
-.connect-right input {
+.connect-right input{
     background: none;
-   
     border: 1px solid #565656;
     padding: 11px 23px;
     font-size: 14px;
@@ -1074,7 +1085,7 @@ input:focus {
     }
 
     section#building .swiper-pagination {
-        margin-top: 25px;
+        margin-top: 0px;
     }
 
     .foots-logo {
@@ -1125,13 +1136,16 @@ input:focus {
     }
 
     .number-wrappers {
-        width: 70%;
+        width: 100%;
         margin-left: 21px;
         margin-right: 22px;
     }
-
     .top-logo img {
         display: none;
+    }
+    .number-wrappers .number-colm{
+
+        width: 50%;
     }
 
     .header {
@@ -1148,6 +1162,7 @@ input:focus {
 
     section#building .swiper-wrapper {
         min-height: 0px;
+        padding-bottom:0px;
     }
 
     section#building .slide-contents h4 {
@@ -1180,6 +1195,39 @@ input:focus {
 @media (max-width:767px) {
     section#Specifications.mobiles-lists {
         display: block;
+    }
+
+    section#gallery {
+        padding-bottom: 50px;
+    }
+    section#Specifications {
+        padding-bottom: 40px;
+    }
+    .tabs-three-listingss {
+    padding-bottom: 40px;
+    }
+    .qty-text h4,.qty-text.sec-oness h3,.qty-main .qty-text p{
+        text-align: center;
+    }
+    .btns-se{
+
+        padding-bottom: 30px;
+    }
+    section#plan-details h3 {
+        margin-top: 40px;
+    }
+ 
+    section#Specifications {
+        padding-top: 50px;
+    }
+
+    .qty-main .qty-text,.qty-main .bg-numbers {
+        width: 100%;
+    }
+
+    .qty-main {
+        display: block;
+        align-items: center;
     }
 
     section#Specifications.desktop-lists {
@@ -1577,9 +1625,24 @@ input:focus {
     }
 
     video.videoTag {
-        height: 100%;
+        height: 325px;
     }
 
+    .home-sec {
+        position: relative;
+        height: 54vh;
+    }
+
+    .qty-text{
+        padding-bottom:150px;
+}
+.number-wrappers {
+    width: 100%;
+    margin: 20px auto;
+}
+section#Specifications.mobiles-lists {
+    padding-top: 50px;
+}
     .qty-main .qty-text {
         margin-right: 0px;
     }
@@ -1599,6 +1662,34 @@ input:focus {
     section#project-developed {
         padding-top: 10px;
     }
+    .qty-text.sec-oness h4{
+        margin-bottom: 0px;
+    }
+    .qty-text.sec-oness h4,section#building h3,section#gallery h3,section#plan-details h3{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    a.browser-pdf{
+        margin-bottom:30px;
+    }
+    section#building .swiper-pagination {
+        position: relative;
+        bottom: 0;
+    }
+    
+    .qty-main .qty-text p {
+        padding: 0px;
+    }
+    .number-colm h4 {
+        font-size: 18px;
+        line-height: 20px;
+        max-width: 100%;
+    }
+    section#project-developed h3 {
+        margin-bottom: 30px;
+    }
+
+
 }
 
 

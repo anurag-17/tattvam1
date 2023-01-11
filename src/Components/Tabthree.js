@@ -1,82 +1,78 @@
 import React, { useEffect, useState } from 'react';
-import Table from 'react-bootstrap/Table';
 import Carousel from 'react-bootstrap/Carousel';
-import floor3_1 from './images/flor/4bhk1.jpg';
-// import floor3_2 from './images/flor/F3_F6-F_Flat_A.jpg';
-// import floor3_3 from './images/flor/F3_ F6_ F9Flat_B_final.jpg';
-// import floor3_4 from './images/flor/F3_F6_F9_Flat_C final.jpg';
-// import floor3_5 from './images/flor/F3_ F6,_F9-Flat_Dfinal.jpg';
-// import floor3_6 from './images/flor/F3_F6_F9_Flat_E final.jpg';
-// import floor3_7 from './images/flor/F3_ F6_ F9_Flat F.jpg';
 
 export const Tabthree = () => {
 
 
+  const [grndflr, setGrndflr] = useState([]);
 
+  async function Grndflrs() {
+    const Grndflrdata = await fetch('https://tattvamkolkata.com/wp-tattvam/wp-json/wp/v2/pages/33');
+    const Grndflrdatas = await Grndflrdata.json();
+    setGrndflr(Grndflrdatas.acf.four_bhk);
+    //console.log(Grndflrdatas.acf.four_bhk);
+  }
+  useEffect(() => {
+    
+
+    Grndflrs();
+  }, [])
+  
 const [index, setIndex] = useState(0);
 const handleSelect = (selectedIndex, e) => {
   setIndex(selectedIndex);
 };
 
 
+const test=()=>{
+  //console.log(grndflr);
+}
   return (
     <div>
         <div className='container'>
         
-        
-        <div className='tab-slider'>
+      
+{grndflr.first_image && grndflr.first_image.url&&  <div className='tab-slider'>
         <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
         <img
           className="d-block w-100"
-          src={floor3_1}
+          src={grndflr.first_image.url}
           alt="First slide"
         />        
       </Carousel.Item>
       {/* <Carousel.Item>
         <img
           className="d-block w-100"
-          src={floor3_2}
+          src={grndflr.second_image.url}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={floor3_3}
+          src={grndflr.third_image.url}
           alt="Third slide"
         />       
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={floor3_4}
+          src={grndflr.fourth_image.url}
           alt="Third slide"
         />       
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={floor3_5}
+          src={grndflr.fifth_image.url}
           alt="Third slide"
         />       
       </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={floor3_6}
-          alt="Third slide"
-        />       
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src={floor3_7}
-          alt="Third slide"
-        />       
-      </Carousel.Item> */}
+    */}
       </Carousel>
-        </div>
+        </div>}
+       
       </div> 
       </div>
   )

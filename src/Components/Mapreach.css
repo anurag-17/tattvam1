@@ -14,7 +14,7 @@ div#mapreacg-sec {
      
  }
 .map-sec1{
-   background-color: #e7e7e7;
+   background-color:#e5f6f0;
     background-position: center;
     width: 100%;
     background-size:cover;
@@ -212,7 +212,6 @@ iframe.reach-ifram {
 @media (max-width:1200px) {
     #mapreacg-sec {
         background-position: right!important;
-        background-color: #e7e7e7 !important;
         background-image: none;
     }
     .reach-right .tab-rt {
@@ -221,6 +220,10 @@ iframe.reach-ifram {
     .reach-right .tab-content {
         width: 100%;
     }
+    .map-sec1{
+        background-color: #154b37;
+
+    }
 }
 
 
@@ -228,9 +231,15 @@ iframe.reach-ifram {
    
     #mapreacg-sec {
         background-position: right!important;
-        background-color: #fff !important;
+        
         background-image: none;
     }
+
+    .map-sec1{
+        background-color: #154b37;
+
+    }
+
     .right-content th {
         width: 100%;
     }
@@ -241,10 +250,16 @@ iframe.reach-ifram {
 }
 
 @media (max-width:776px) {
+  
     div#mapreacg-sec {
-        padding-bottom: 30px;
-        padding-top: 30px;
+        padding-top: 0px;
     }
+
+    .map-sec1 {
+        background-color:#154b37;
+    }
+    
+    
     .reach-map {
         flex-direction: column-reverse;
         grid-gap: 5px !important;
@@ -255,9 +270,15 @@ iframe.reach-ifram {
     .reach-right h3 {
         text-align: center;
     }
-     h3.mob-maptitle {
-        display:block;
-        padding-bottom: 20px;
+    h3.mob-maptitle {
+        display: block;
+        padding-bottom: 0px;
+        color: #fff;
+        margin-bottom: 0px;
+    }
+    div#mapreacg-sec {
+        padding-bottom: 10px;
+    
     }
     .reach-right h3 {
         display: none;
@@ -283,5 +304,20 @@ iframe.reach-ifram {
     iframe.reach-ifram {
         height: 350px;
     }
+    div#mapreacg-sec {
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+    .reach-map {
+        padding-top: 30px;
+    }
+
+    h3.mob-maptitle{
+
+        font-size: 30px;
+    line-height: 35px;
+
+    }
+
 }
 

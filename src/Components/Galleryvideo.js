@@ -37,7 +37,7 @@ export default function Galleryvideo() {
             })
             .catch((err) => { });
     };
-    console.log(videosData);
+    //console.log(videosData);
 
     const showMore = () => {
         setIndex(index + 3)

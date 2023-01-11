@@ -63,7 +63,7 @@ const Mapreach = () => {
                       school &&
                       <>
 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.576011819799!2d88.34847921512338!3d22.52008554057116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277324ccf7cef%3A0x1ded0a87151f1b39!2s171%2C%20109-1A%2C%20Lansdowne%20Ter%2C%20Manoharpukur%2C%20Kalighat%2C%20Kolkata%2C%20West%20Bengal%20700045!5e0!3m2!1sen!2sin!4v1666328604499!5m2!1sen!2sin" className='reach-ifram' allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29480.376207004538!2d88.40550793190921!3d22.53991109952606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02743fd117bac1%3A0xf29bf89dface421d!2sKolkata%2C%20West%20Bengal%20700105!5e0!3m2!1sen!2sin!4v1673348632390!5m2!1sen!2sin" className='reach-ifram' allowFullScreen="" loading="lazy"></iframe>
                       </>
                     }
 
@@ -71,7 +71,7 @@ const Mapreach = () => {
                       market &&
                       <>
 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.576011819799!2d88.34847921512338!3d22.52008554057116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277324ccf7cef%3A0x1ded0a87151f1b39!2s171%2C%20109-1A%2C%20Lansdowne%20Ter%2C%20Manoharpukur%2C%20Kalighat%2C%20Kolkata%2C%20West%20Bengal%20700045!5e0!3m2!1sen!2sin!4v1666328604499!5m2!1sen!2sin" className='reach-ifram' allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29480.376207004538!2d88.40550793190921!3d22.53991109952606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02743fd117bac1%3A0xf29bf89dface421d!2sKolkata%2C%20West%20Bengal%20700105!5e0!3m2!1sen!2sin!4v1673348632390!5m2!1sen!2sin" className='reach-ifram' allowFullScreen="" loading="lazy"></iframe>
                       </>
                     }
 
@@ -79,14 +79,16 @@ const Mapreach = () => {
                       connectivity &&
                       <>
 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.576011819799!2d88.34847921512338!3d22.52008554057116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277324ccf7cef%3A0x1ded0a87151f1b39!2s171%2C%20109-1A%2C%20Lansdowne%20Ter%2C%20Manoharpukur%2C%20Kalighat%2C%20Kolkata%2C%20West%20Bengal%20700045!5e0!3m2!1sen!2sin!4v1666328604499!5m2!1sen!2sin" className='reach-ifram' allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29480.376207004538!2d88.40550793190921!3d22.53991109952606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02743fd117bac1%3A0xf29bf89dface421d!2sKolkata%2C%20West%20Bengal%20700105!5e0!3m2!1sen!2sin!4v1673348632390!5m2!1sen!2sin" className='reach-ifram' allowFullScreen="" loading="lazy"></iframe>
                       </>
                     }
 
                     {
 
                       office &&
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.576011819799!2d88.34847921512338!3d22.52008554057116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277324ccf7cef%3A0x1ded0a87151f1b39!2s171%2C%20109-1A%2C%20Lansdowne%20Ter%2C%20Manoharpukur%2C%20Kalighat%2C%20Kolkata%2C%20West%20Bengal%20700045!5e0!3m2!1sen!2sin!4v1666328604499!5m2!1sen!2sin" className='reach-ifram' allowfullscreen="" loading="lazy"></iframe>
+                      <>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29480.376207004538!2d88.40550793190921!3d22.53991109952606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02743fd117bac1%3A0xf29bf89dface421d!2sKolkata%2C%20West%20Bengal%20700105!5e0!3m2!1sen!2sin!4v1673348632390!5m2!1sen!2sin" className='reach-ifram' allowFullScreen="" loading="lazy"></iframe>
+                   </>
                     }
 
 

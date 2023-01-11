@@ -10,6 +10,7 @@ export const Projectdevelopedby = () => {
       const projectdevdata = await fetch('https://tattvamkolkata.com/wp-tattvam/wp-json/wp/v2/pages/33');
       const projectdevdatas = await projectdevdata.json();
       setProjectcontent(projectdevdatas.acf);
+     // console.log(projectdevdatas.acf);
     }
     projectcontents();
   }, [])
@@ -21,8 +22,10 @@ export const Projectdevelopedby = () => {
 
         <div className='logo-wrapper'>
 
-          <div className='right-logos'> <img src={projectcontent.project_developed_logo_1} alt='Rajat' /> </div>
-          <div className='left-logos'>  <img src={projectcontent.project_developed_logo_2} alt='Eden' />   </div>
+          <div className='right-logos'> <img src={projectcontent.project_developed_logo_1} alt='Isha' /> </div>
+          <div className='right-logos'> <img src={projectcontent.project_developed_logo_2} alt='Eden' /> </div>
+          <div className='right-logos'> <img src={projectcontent.project_developed_logo_3} alt='Multicon' /> </div>
+          <div className='left-logos'>  <img src={projectcontent.project_developed_logo_4} alt='Adya' /> </div>
         </div>
         <div className='clear'></div>
 

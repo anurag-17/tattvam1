@@ -98,7 +98,15 @@ section#AmenitiesDetails .explor-section {
 }
 .tab-des{
     background-color: #154b37;
-    box-shadow: 1px 1px 20px 0px #f2f2f2;
+
+}
+.nav-pills .nav-item {
+    border-bottom: 1px solid #d1e3da;
+}
+
+.specification-ct ul li::marker,.wall-content ul li::marker{
+    color: #c9d75f;
+    font-size: 25px;
 }
 .nav-pills .nav-link {
     color: #000;
@@ -139,7 +147,7 @@ section#AmenitiesDetails .explor-section {
     font-family: 'Red Hat Display', sans-serif;
 }
 .extra-ct {
-    border-top: 3px solid #155b37;
+    border:1px solid #7bcfb0;
 }
 #Payment-sec .extra-ct  thead {
     background-color: #abdbcb;
@@ -161,15 +169,15 @@ table.table.table-extra {
     width: 65%;
 }
 .categry-tble tr th:nth-child(1) {
-    border-right: 1px solid #b9b5b5;
-    background-color: #e7e7e7;
+    border-right: 1px solid #7bcfb0;
+    background-color:#7bcfb0;
 }
 .categry-tble tr th:nth-child(2) {
     
-    background-color: #e7e7e7;
+    background-color: #7bcfb0;
 }
 .categry-tble tr td:nth-child(1) {
-    border-right: 1px solid #aca9a9;
+    border-right: 1px solid #7bcfb0;
 
 }
 .extra-ct tbody td {
@@ -183,8 +191,8 @@ table.table.table-extra {
     color: var(--bs-table-striped-color);
 }
 .categry-tble span {
-    background: #d7d7d7;
-    padding: 4px 12px;
+    background: #7bcfb0;
+    padding: 4px 9px;
     border-radius: 36px;
     margin-right: 10px;
 }
@@ -240,7 +248,7 @@ table.table.table-extra {
     justify-content: space-between;
     margin-top: 50px;
     background-color: #eff7f5;
-    border: 1pt solid rgba(0, 0, 0, 0.293);
+    border: 1pt solid #7bcfb0;
     padding-top: 40px;
 }
 .price_flex_A{
@@ -277,10 +285,11 @@ table.table.table-extra {
     margin-top: 15px;
 }
 .charges_ul span{
-    width: 80%;
+    width: 100%;
+    padding-left: 20px;
 }
 .tabs-three-listingss{
-    background-color: #e7e7e7;
+    background-color:#e5f6f0;
 }
 
 /* responsive */
@@ -408,6 +417,11 @@ section#AmenitiesDetails {
 .Atimg img {
     height: auto;
     width: auto;
+}
+#Specifications h3{
+
+    font-size: 30px;
+        line-height: 35px;
 }
 
 .specifictab .nav-pills .nav-link {

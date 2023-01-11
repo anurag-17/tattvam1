@@ -225,7 +225,7 @@ export default function App() {
                       //   </li>
                       //   )
                       //  }
-                      console.log(photo);
+                      //console.log(photo);
                        return (
                         <li className={`photo-item`} key={index}>
                         <div className="box_img m-1">
