@@ -1,0 +1,1625 @@
+.App {
+    text-align: center;
+}
+
+.header {
+    margin: 0px auto;
+    background: #ffffff;
+    padding: 30px 0px;
+
+}
+
+.desktop-gallery button.btn.btn-info.disabled {
+    background: #1d4b37;
+    color: #fff;
+    border: 1px solid #1d4b37;
+}
+
+.logoct a {
+    cursor: pointer;
+}
+
+section#pricee-sctions h3 {
+    text-align: center;
+}
+
+.extra-ct .categry-tble tr:last-child {
+    border-width: 0px !important;
+}
+
+.btitle {
+    margin: 20px 0px 0px;
+}
+
+.btitle {
+    text-align: center;
+}
+
+section#Specifications {
+    padding-bottom: 70px;
+    background-color: #e7e7e7;
+    padding-top: 80px;
+}
+.connect-right h5 {
+    color: #fff;
+    font-family: Red Hat Display,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+
+.btitle button.btn.btn-light {
+    background-color: #154b37;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+ul.tabs-links li {
+    border: 1px solid #c9d75f;
+    border-radius: 0;
+    cursor: pointer;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    width: 35%;
+    text-align: center;
+    color: white;
+}
+
+ul.tabs-links li.active {
+    background-color: #c9d75f !important;
+    border: 1px solid #c9d75f;
+    border-radius: 0;
+    color: #000;
+}
+
+ul.tabs-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    padding: 0px;
+}
+
+
+.header ul {
+    padding: 0px;
+}
+
+.header ul {
+    padding: 0px;
+}
+
+.header ul {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+}
+
+.header ul li {
+    margin: 0 15px;
+}
+
+.top-logo img {
+    width: 167px;
+    height: 90px;
+    margin: 0 auto;
+    float: none;
+    display: block;
+}
+
+
+
+.header ul li a {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #181818;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+}
+
+.home-sec {
+    position: relative;
+    height: 100vh;
+}
+
+section#Specifications.mobiles-lists {
+    display: none;
+}
+
+.home-top-banner {
+    /*background: url(./banner.jpg);*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    padding: 10px 0px 50px 0px;
+}
+
+.reach-right h4 {
+    text-align: left;
+    position: relative;
+}
+
+#building .swiper-button-prev:after, #building .swiper-button-next:after {
+    font-size: 15px;
+    color: #fff;
+}
+
+#building .swiper-button-prev, #building .swiper-button-next {
+    background-color: #1d4b37;
+    border-radius: 32px;
+    width: 32px;
+    height: 32px;
+    top: 40%;
+    font-size: 15px;
+}
+
+.home-top-banner {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    width: 100%;
+    height: 75vh;
+    /* background: #ffffff40;
+    background-image: linear-gradient(to bottom right, #e6c3749c, #297170de); */
+}
+
+
+.tabs-three-listingss ul.mb-3.nav.nav-tabs button {
+    background: #ebf3f1 !important;
+    margin: 0px 15px;
+    border: 0px;
+    border-radius: 0px;
+    font-size: 18px;
+    color: #000;
+    padding: 10px 25px;
+    line-height: 30px;
+}
+
+.tabs-three-listingss ul.mb-3.nav.nav-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px !important;
+    border: 0px;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 0px;
+    right: auto;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 0px;
+    left: auto;
+}
+
+
+.left-logos img {
+    width: 155px
+}
+
+.footer-rights ul i {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.footer-rights ul {
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer-copyrights {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-rights ul i {
+    font-size: 30px;
+    color: #25D366;
+    margin-left: 20px;
+}
+
+.footer-rights ul i.fa.fa-phone {
+    color: #fff;
+    font-size: 25px;
+}
+
+.footer-rights ul i.fa.fa-phone {
+    transform: rotate(90deg);
+}
+
+
+.top-logo {
+    margin-bottom: 200px;
+}
+
+.top-logo img {
+    display: none;
+}
+
+button.get-btn a.active {
+    color: #fff;
+    text-decoration: none;
+}
+
+#pricee-sctions .extra-ct {
+    margin-bottom: 25px;
+    padding-top: 10px;
+}
+
+#pricee-sctions .extra-ct .btitle {
+    text-align: center;
+}
+
+btitle {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.btitle.btitle-ntwn {
+    text-align: center;
+    ;
+}
+
+
+.btitle.btitle-ntwn {
+    text-align: center;
+
+}
+
+section#project-developed {
+    text-align: center;
+    padding-top: 70px;
+}
+
+section#project-developed h3 {
+    color: #155c37;
+}
+
+section#pricee-sctions h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.botm-sect-ones h1 {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    line-height: 50px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0px;
+    letter-spacing: 0px;
+}
+
+.botm-sect-ones p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.qty-text h3 {
+    margin-bottom: 20px;
+    margin-top: 0;
+    width: 50%;
+    float: none;
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #1d1d1d;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+
+h5 {
+    font-size: 23px;
+    line-height: 36px;
+    color: #1d1d1d;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0px;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section.qty-comfort {
+    background: #fff;
+    padding-top: 112px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #717070;
+    font-weight: 400;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h4 {
+    font-size: 16px;
+    letter-spacing: 11px;
+    line-height: 26px;
+    color: #00a04b;
+    font-weight: 600;
+    font-family: "Red Hat Display";
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.qty-main {
+    display: flex;
+    align-items: center;
+}
+
+.qty-text {
+    background-image: url('./Components/images/vectorbg.png');
+    background-position: 50px 230px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 150px;
+
+}
+
+.qty-text p {
+    max-width: 345px;
+}
+
+.qty-text h4 {
+    text-align: left;
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 13px;
+}
+
+.qty-text h4:before {
+    content: '';
+    display: block;
+    width: 18px;
+    height: 2px;
+    background-color: #155c37;
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+}
+
+.qty-text h3 {
+    margin-bottom: 20px;
+    margin-top: 0;
+    width: 75%;
+    float: none;
+}
+
+.qty-main .qty-text {
+    width: 49%;
+}
+
+.gallery-homes h4 {
+    margin-bottom: 0px;
+}
+
+.gallery-homes h3 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.qty-main .bg-numbers {
+    width: 63%;
+    /* background: url(../src/Components/images/over-view.jpg); */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+.number-colm h4 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #155c37;
+    font-weight: 800;
+    font-family: "Red Hat Display";
+}
+
+.img-icons {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+    justify-content: center;
+    border: 1px dashed #707070;
+    margin-bottom: 15px;
+}
+
+section#building .swiper.swiper-initialized.swiper-horizontal.swiper-pointer-events.mySwiper {
+    padding: 0px 35px;
+    padding-bottom: 50px
+}
+
+
+
+.is-sticky .menu1.logoct img {
+    /* width: 50px !important; */
+    transition: all ease-in-out 0.6s;
+}
+
+#floorplan img {
+    width: 100%;
+    display: none;
+}
+
+.number-wrappers {
+    background: #ffffffbf;
+    width: 100%;
+    margin-left: 48px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.number-colm:nth-child(1), .number-colm:nth-child(3) {
+    border-right: 1px solid #155c37;
+}
+
+.number-colm:nth-child(1), .number-colm:nth-child(2) {
+    border-bottom: 1px solid #155c37;
+    margin: 0 auto;
+}
+
+.number-colm h4 {
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.number-wrappers .number-colm {
+    width: 45%;
+    float: left;
+    min-height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-colm p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #464646;
+    font-weight: 400;
+    font-family: "Red Hat Display";
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+section#AmenitiesDetails {
+    display: none;
+}
+
+.number-colm {
+    padding: 19px 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.number-colm:last-child {
+    border: none;
+}
+
+.number-colm h4 {
+    letter-spacing: 0;
+}
+
+.hr-line {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+    width: 90%;
+    margin: auto;
+}
+
+section#building h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+section#building h4 {
+    margin-bottom: 16px;
+    margin-top: 0;
+}
+
+section#building {
+    background: #fff;
+}
+
+
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/*----vinay css----*/
+
+
+section#building h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #154b37;
+}
+
+section#building h4 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+section#building {
+    padding-bottom: 50px;
+}
+
+section#building .slide-contents h4 {
+    min-height: 40px;
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+
+
+#Specifications h3 {
+    text-align: center;
+    padding-bottom: 30px;
+    color: #154b37;
+}
+
+.qty-text.sec-oness h4:before {
+    content: normal;
+}
+
+.qty-text.sec-oness h4 {
+    font-size: 40px;
+    padding-left: 0px;
+    line-height: 40px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #154b37;
+    font-family: 'Playfair Display', serif;
+}
+
+.qty-text.sec-oness h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 35px;
+}
+
+.slide-contents h4 {
+    font-size: 22px;
+    line-height: 25px;
+    color: #1d1d1d;
+    letter-spacing: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 0 !important;
+    padding-top: 26px;
+    text-align: left;
+    padding-bottom: 26px;
+    padding-left: 18px;
+    text-transform: capitalize;
+}
+
+.slide-contents img {
+    max-width: 100%;
+}
+
+section#building .swiper-pagination {
+    position: absolute;
+    top: 95%;
+    bottom: 0;
+}
+
+section#building .swiper-slide {
+    background: #fff;
+    position: relative;
+    padding: 10px
+}
+
+
+section#building .swiper-wrapper {
+    min-height: 332px;
+}
+
+section#building .swiper-pagination span.swiper-pagination-bullet {
+    width: 41px;
+    border-radius: 10px;
+    background: #155c37;
+}
+
+section#building .swiper-slide:hover img {
+    transform: scale(1.1);
+}
+
+section#building .swiper-slide img {
+    transition: 0.3s;
+    margin-bottom: 0px;
+}
+
+section#building .slide-contents {
+    overflow: hidden;
+    /* box-shadow: 1px 1px 20px 0px #f2f2f2; */
+    text-align: center;
+    padding: 0px;
+}
+
+section#building h4 {
+    padding-left: 18px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    align-items: center;
+}
+
+section#plan-details {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 60px;
+}
+
+video.videoTag {
+    object-fit: cover !important;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+section#plan-details h3 {
+    margin-top: 80px;
+    color: #154b37;
+}
+
+section#plan-details li.nav-item button {
+    font-size: 16px;
+    color: #1d1d1d;
+    font-weight: 400;
+    border: none !important;
+}
+
+section#plan-details .nav-link.active {
+    background: #ebf3f1 !important;
+}
+
+section#plan-details .nav-tabs {
+    justify-content: center;
+    border: none;
+    margin-top: 34px;
+}
+
+section#plan-details .tab-content {
+    padding-top: 0px !important;
+}
+
+section#gallery {
+    text-align: center;
+    /* padding-bottom: 20px; */
+    background-color: #154b37;
+
+}
+
+.galleryvideoA {
+    background-color: #e7e7e7 !important;
+
+
+}
+
+.galleryvideoh3 {
+    text-align: center;
+    padding: 70px 0 0 0;
+    color: #154b37 !important;
+}
+
+
+
+section#project-developed {
+    text-align: center;
+    padding-top: 0px;
+    padding-top: 70px;
+    background-color: #e7e7e7;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.logo-wrapper .right-logos {
+    margin-right: 50px;
+}
+
+.logo-wrapper .left-logos {
+    margin-left: 50px;
+}
+
+.explore-more a {
+    background: #006938;
+    padding: 15px 65px;
+    clear: both;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 50px !important;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    transition: 0.6s;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.left-details li {
+    list-style-type: none;
+}
+
+.left-details li a {
+    font-size: 16px;
+    line-height: 28px;
+    color: #b8b8b8;
+    font-weight: 400;
+    font-family: 'Red Hat Display', sans-serif;
+    text-decoration: none;
+}
+
+.left-details ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 24px;
+}
+
+.left-details li:first-child {
+    margin-right: 25px;
+}
+
+.foots-logo {
+    margin-bottom: 34px;
+    margin-left: 0px;
+}
+
+.footer-main {
+    background: #000;
+    padding-top: 59px;
+    /* margin-top: 60px; */
+}
+
+.connect-right li:first-child {
+    margin-right: 20px;
+}
+
+.footer-colms {
+    display: flex;
+}
+
+.connect-right h3 {
+    color: #b8b8b8;
+    margin-bottom: 25px;
+}
+
+.connect-right li {
+    list-style-type: none;
+    width: 100%;
+}
+
+.connect-right form ul {
+    padding-left: 0;
+    display: flex;
+    width: 100%;
+}
+
+.connect-right input {
+    background: none;
+   
+    border: 1px solid #565656;
+    padding: 11px 23px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #b8b8b8;
+    font-weight: 400;
+    font-family: 'Red Hat Display', sans-serif;
+    width: 100%;
+}
+
+.connect-right form ul {
+    padding-left: 0;
+    display: flex;
+    width: 100%;
+}
+
+.connect-right form ul label {
+    font-size: 13px;
+    line-height: 28px;
+    color: #b8b8b8;
+    font-weight: 400;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+ul.chkbx input#vehicle1 {
+    width: auto;
+}
+
+ul.chkbx label {
+    margin-left: 10px;
+}
+
+.connect-right input[type="submit"] {
+    width: auto;
+    background: #155c37;
+    border: none;
+    font-size: 14px;
+    line-height: 28px;
+    color: #b8b8b8;
+    font-weight: 600;
+    transition: 0.6s;
+}
+
+input:focus {
+    outline: none;
+}
+
+.left-details {
+    width: 40%;
+}
+
+.connect-right {
+    width: 60%;
+}
+
+.footer-copyrights {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 20px 0;
+    border-top: 1px solid #484848;
+    margin-top: 56px;
+}
+
+.footer-copyrights p {
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 28px;
+    color: #b8b8b8;
+    font-weight: 400;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.connect-right input[type="submit"]:hover {
+    background: #277cbe;
+    color: #fff;
+    transition: 0.6s;
+}
+
+.explore-more a:hover {
+    background: #277cbe;
+    transition: 0.6s;
+}
+
+.connect-right input:focus {
+    border-color: #fff;
+}
+
+.loadbtn {
+    background-color: #154b37;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    padding: 7px 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.loadbtn1 {
+    padding-bottom: 40px;
+}
+
+.loadbtn1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* flor plan start */
+.tab-slider .carousel-control-prev-icon {
+    background-color: #1d4b37;
+    border-radius: 32px;
+}
+
+.tab-slider .carousel-control-next-icon {
+    background-color: #1d4b37;
+    border-radius: 32px;
+}
+
+.tab-slider .carousel-control-prev {
+    left: -78px;
+}
+
+.tab-slider .carousel-control-next {
+    right: -85px;
+}
+
+/* flor plan end */
+
+/***********************  Responsive css  **********************/
+
+@media (max-width:1300px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .number-wrappers {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Ament-title h5 {
+        font-size: 20px;
+    }
+
+    .qty-text h3 {
+        width: 100%;
+    }
+
+}
+
+@media (max-width:992px) {
+    .number-wrappers {
+        display: flex;
+        flex-wrap: wrap;
+        width: 81%;
+        margin-left: 21px;
+        margin-right: 22px;
+    }
+
+    .qty-main .qty-text {
+        margin-right: 20px;
+    }
+
+    section.qty-comfort {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    section#building .swiper-pagination {
+        margin-top: 25px;
+    }
+
+    .foots-logo {
+        margin-left: 0;
+    }
+
+    section#building {
+        padding-bottom: 50px !important;
+    }
+
+    h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .slide-contents h4 {
+        font-size: 18px;
+        line-height: 28px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .explore-more a {
+        padding: 11px 37px;
+        font-size: 14px;
+        line-height: 26px;
+        margin-top: 35px !important;
+    }
+
+    .footer-main {
+        margin-top: 0px;
+    }
+
+    section#project-developed {
+        padding-top: 30px;
+    }
+
+    .logo-wrapper .right-logos {
+        margin-right: 15px;
+    }
+
+    .logo-wrapper .left-logos {
+        margin-left: 15px;
+    }
+
+    .logo-wrapper {
+        padding-top: 28px;
+    }
+
+    .number-wrappers {
+        width: 70%;
+        margin-left: 21px;
+        margin-right: 22px;
+    }
+
+    .top-logo img {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .qty-text h3 {
+        width: 100%;
+    }
+
+    section#plan-details {
+        padding-top: 60px;
+    }
+
+    section#building .swiper-wrapper {
+        min-height: 0px;
+    }
+
+    section#building .slide-contents h4 {
+        min-height: 60px;
+    }
+
+    section#building .slide-contents h4 {
+        justify-content: center;
+    }
+
+    section#building {
+        padding-bottom: 20px !important;
+    }
+
+    section#plan-details {
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+
+    .tab-rt ul.tabs-links li {
+        font-size: 12px;
+    }
+
+    section#plan-details {
+        padding-bottom: 40px;
+    }
+}
+
+
+@media (max-width:767px) {
+    section#Specifications.mobiles-lists {
+        display: block;
+    }
+
+    section#Specifications.desktop-lists {
+        display: none;
+
+    }
+
+    .reach-map {
+        grid-gap: 15px;
+    }
+
+    section#building {
+        padding-bottom: 30px;
+    }
+
+    section#building {
+        padding-bottom: 20px !important;
+    }
+
+    section#building .slide-contents h4 {
+        min-height: 86px;
+    }
+
+    section#plan-details .nav-link.active {
+        background: #154b37 !important;
+        color: #fff !important;
+    }
+
+    #plan-details .tab-content img {
+        width: 100%;
+    }
+
+    .galley-main .photo-item {
+        left: 0px !important;
+    }
+
+    .galley-main .photo-item {
+        width: 100%;
+    }
+
+    ul.photo-list li {
+        width: 100%;
+    }
+
+    section#project-developed {
+        padding-top: 30px;
+    }
+
+    .logo-wrapper {
+        padding-top: 0px;
+    }
+
+    section#plan-details .tab-content {
+        padding-top: 0px !important;
+    }
+
+    section#plan-details .nav-tabs {
+        margin-top: 15px;
+    }
+}
+
+
+@media (max-width:667px) {
+    .logo-wrapper .right-logos {
+        margin-right: 20px;
+    }
+
+    .left-logos img {
+        width: 145px;
+    }
+
+    .logo-wrapper .left-logos {
+        margin-left: 20px;
+    }
+
+    .foots-logo {
+        margin-bottom: 34px;
+        margin-left: 0;
+    }
+
+    .connect-right li:first-child {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .connect-right form ul {
+        flex-wrap: wrap;
+    }
+
+    ul.chkbx {
+        flex-wrap: nowrap !important;
+    }
+
+    .connect-right input {
+        padding: 4px 17px;
+        font-size: 14px;
+        line-height: 28px;
+
+    }
+
+    .left-details {
+        width: 50%;
+    }
+
+    .connect-right {
+        width: 55%;
+        margin-left: 50px;
+    }
+
+    #building .swiper-button-prev,
+    #building .swiper-button-next {
+        top: 50%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #building .swiper-button-prev:after,
+    #building .swiper-button-next:after {
+        font-size: 15px;
+    }
+
+    .tab-slider .carousel-control-next-icon,
+    .tab-slider .carousel-control-prev-icon {
+        background-size: 70%;
+    }
+
+    ul.chkbx {
+        align-items: baseline;
+    }
+
+    .qty-main {
+        flex-wrap: wrap;
+    }
+
+    .qty-main .qty-text {
+        width: 100%;
+    }
+
+    .qty-text h3 br {
+        display: none;
+    }
+
+    .qty-text p br {
+        display: none;
+    }
+
+    .qty-text p {
+        max-width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .qty-main .bg-numbers {
+        width: 100%;
+    }
+
+    section#building .swiper-wrapper {
+        min-height: 259px;
+    }
+
+    section#building .swiper-pagination span.swiper-pagination-bullet {
+        width: 27px;
+        height: 7px;
+    }
+
+    .connect-right form ul label {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .qty-text h3 {
+        text-align: center;
+    }
+
+    .qt-title {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .number-wrappers {
+        width: 70%;
+        margin: 40px auto;
+    }
+
+    .number-colm p, h4 {
+        text-align: center;
+    }
+
+    .number-colm {
+        width: 100%;
+    }
+
+    .number-colm h4 {
+        text-align: center;
+    }
+
+    .number-colm {
+        padding: 5px 0;
+    }
+
+    section.qty-comfort {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .container {
+        max-width: 98%;
+    }
+
+    .top-logo {
+        margin-bottom: 100px;
+    }
+
+    .number-colm h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    section#building h3 {
+        margin-bottom: 20px;
+    }
+
+    .qty-text h4 {
+        margin-bottom: 0px;
+    }
+
+    .qty-text h3 {
+        margin-bottom: 0px;
+    }
+
+    section#building h4 {
+        margin-bottom: 0px;
+    }
+
+    .slide-contents img {
+        width: 100%;
+    }
+
+    section#building .slide-contents h4 {
+        min-height: 70px;
+    }
+
+    section#building {
+        padding-bottom: 15px !important;
+    }
+
+    .tab-slider .carousel-control-prev {
+        left: 0px;
+    }
+
+    .tab-slider .carousel-control-next {
+        right: 0px;
+    }
+}
+
+
+
+@media (max-width:568px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .footer-colms {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .left-details {
+        width: 100%;
+    }
+
+    .connect-right {
+        width: 100%;
+        margin-left: 0;
+        padding-bottom: 30px;
+    }
+
+    .foots-logo {
+        text-align: center;
+    }
+
+    section#plan-details .tab-content img {
+        width: 90% !important;
+    }
+
+    .logo-wrapper {
+        flex-wrap: wrap;
+        gap: 15px;
+        align-items: baseline;
+    }
+
+    .logo-wrapper .left-logos {
+        margin-left: 0;
+    }
+
+    .logo-wrapper .right-logos {
+        margin-right: 0;
+    }
+
+    .right-logos {
+        margin-bottom: 0px;
+    }
+
+    section#plan-details li.nav-item button {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+
+    .logo-wrapper img {
+        width: auto;
+    }
+
+    h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .connect-right h3 {
+        margin-bottom: 20px;
+    }
+
+    .left-details li:first-child {
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+
+    .left-details ul {
+        display: block;
+        align-items: center;
+        padding-left: 0;
+        text-align: center;
+
+        margin-bottom: 24px;
+    }
+
+    .connect-right h3 {
+        color: #b8b8b8;
+        margin-bottom: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+        letter-spacing: 9px;
+        line-height: 26px;
+    }
+
+    .connect-right input[type="submit"] {
+        width: 100%;
+    }
+
+    .botm-sect-ones p {
+        max-width: 100%;
+    }
+
+    .qty-text h4 {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 26px;
+
+    }
+
+    .slide-contents h4 {
+        font-size: 22px;
+        line-height: 34px;
+    }
+
+    .footer-copyrights {
+        margin-top: 20px;
+    }
+
+    .footer-main {
+        padding-top: 40px;
+    }
+
+    section#building .swiper-pagination {
+        margin-top: 5px;
+    }
+
+    section#building .swiper-pagination span.swiper-pagination-bullet {
+        width: 10px;
+        height: 5px;
+    }
+
+    .connect-right h3 {
+        margin-bottom: 20px;
+    }
+
+    section#building .slide-contents h4 {
+        text-align: center;
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+
+    video.videoTag {
+        height: 100%;
+    }
+
+    .qty-main .qty-text {
+        margin-right: 0px;
+    }
+
+    section#plan-details .nav-tabs {
+        margin-top: 15px;
+    }
+
+    section#plan-details .tab-content {
+        padding-top: 0px !important;
+    }
+
+    .connect-right h3 {
+        text-align: center;
+    }
+
+    section#project-developed {
+        padding-top: 10px;
+    }
+}
+
+
+
+@media (max-width:400px) {
+    h3 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .slide-contents h4 {
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+    section#building .slide-contents h4 {
+        min-height: 60px;
+
+    }
+
+    .tab-rt ul.tabs-links li {
+        font-size: 12px;
+    }
+}
