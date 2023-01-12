@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import './Mobmenu.css';
 import logomob from '../Components/images/Logo.svg'
-import logomob1 from '../Components/images/newlogo.png'
+import logomob1 from '../Components/images/logo.png'
 import { Link } from 'react-scroll';
 
 import * as Scroll from 'react-scroll';

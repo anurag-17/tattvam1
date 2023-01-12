@@ -27,34 +27,49 @@ const Connectivity = () => {
         </tr>
       </thead>
       <tbody>
+
+{ cnctvy&& cnctvy.connectivity_data_1&&
         <tr>
           <td>{cnctvy.connectivity_data_1}</td>
           <td>{cnctvy.connectivity_distance_1}</td>
         </tr>
+}
+{ cnctvy&& cnctvy.connectivity_data_2&&
         <tr>
         <td>{cnctvy.connectivity_data_2}</td>
           <td>{cnctvy.connectivity_distance_2}</td>
         </tr>
+}        
+{ cnctvy&& cnctvy.connectivity_data_3&&
         <tr>
         <td>{cnctvy.connectivity_data_3}</td>
           <td>{cnctvy.connectivity_distance_3}</td>
         </tr>
+}
+{ cnctvy&& cnctvy.connectivity_data_4&&        
         <tr>
         <td>{cnctvy.connectivity_data_4}</td>
           <td>{cnctvy.connectivity_distance_4}</td>
-        </tr>        
+        </tr>  
+}
+{ cnctvy&& cnctvy.connectivity_data_5&&              
         <tr>
         <td>{cnctvy.connectivity_data_5}</td>
           <td>{cnctvy.connectivity_distance_5}</td>
-        </tr>  
+        </tr>
+}
+{ cnctvy&& cnctvy.connectivity_data_6&&         
         <tr>
         <td>{cnctvy.connectivity_data_6}</td>
           <td>{cnctvy.connectivity_distance_6}</td>
         </tr>  
+}
+{ cnctvy&& cnctvy.connectivity_data_7&&        
         <tr>
         <td>{cnctvy.connectivity_data_7}</td>
           <td>{cnctvy.connectivity_distance_7}</td>
         </tr>  
+}        
       </tbody>
     </Table>
     </div>

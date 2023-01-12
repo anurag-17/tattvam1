@@ -31,7 +31,7 @@ export const Homesectiontwo = () => {
                                  <h4> {hometwo.section_two_subheading} </h4>
                             </div>
                             <h3> {hometwo.section_two_title}  </h3>
-                            <p>{hometwo.section_two_left_paragraph}</p>
+                            <p  dangerouslySetInnerHTML={{ __html: hometwo.section_two_left_paragraph}}></p>
                         </div>
 
 

@@ -1,10 +1,9 @@
-import React, { useState } from 'react'
-import GoogleMapReact from "google-map-react";
-import School from './School';
 import './Mapreach.css';
 import Market from './Market';
 import Offices from './Offices';
 import Connectivity from './Connectivity';
+import { useEffect, useState } from "react";
+import Hospital from "./Hospital";
 
 const Mapreach = () => {
 
@@ -13,7 +12,7 @@ const Mapreach = () => {
   const [market, setMarket] = useState(false);
   const [connectivity, setConnectivity] = useState(false);
   const [office, setOffice] = useState(false);
-
+  const [mapcontent, setMapcontent] = useState([]);
   const handleSchool = () => {
     // console.log(event);
     setSchool(true)
@@ -43,6 +42,19 @@ const Mapreach = () => {
     setOffice(true)
 
   }
+  useEffect(() => {
+    async function mapcontents() {
+        const mapdata = await fetch('https://tattvamkolkata.com/wp-tattvam/wp-json/wp/v2/pages/33');
+        const mapdatas = await mapdata.json();
+        setMapcontent(mapdatas.acf);
+        //console.log(mapdatas.acf);
+
+    }
+
+
+
+    mapcontents();
+}, [])
 
 
 
@@ -54,7 +66,7 @@ const Mapreach = () => {
           <div className='container mappatten'>
             <div className='mapshadow'>
 
-              <h3 className='mob-maptitle'>Everything Within Reach</h3>
+              <h3 className='mob-maptitle'>{mapcontent.subtitle_map}</h3>
               <div className='reach-map'>
                 <div className='reach-left'>
                   <div id="map-container-google-1" className="z-depth-1-half map-container">
@@ -62,8 +74,7 @@ const Mapreach = () => {
                     {
                       school &&
                       <>
-
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29480.376207004538!2d88.40550793190921!3d22.53991109952606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02743fd117bac1%3A0xf29bf89dface421d!2sKolkata%2C%20West%20Bengal%20700105!5e0!3m2!1sen!2sin!4v1673348632390!5m2!1sen!2sin" className='reach-ifram' allowFullScreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14735.709240707305!2d88.38692079282227!3d22.581821853869425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027673cba382d1%3A0x6f36097e0b219c10!2sKolkata%2C%20West%20Bengal%20700054!5e0!3m2!1sen!2sin!4v1673501118253!5m2!1sen!2sin" className='reach-ifram' allowFullScreen="" loading="lazy"></iframe>
                       </>
                     }
 
@@ -71,7 +82,7 @@ const Mapreach = () => {
                       market &&
                       <>
 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29480.376207004538!2d88.40550793190921!3d22.53991109952606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02743fd117bac1%3A0xf29bf89dface421d!2sKolkata%2C%20West%20Bengal%20700105!5e0!3m2!1sen!2sin!4v1673348632390!5m2!1sen!2sin" className='reach-ifram' allowFullScreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14735.709240707305!2d88.38692079282227!3d22.581821853869425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027673cba382d1%3A0x6f36097e0b219c10!2sKolkata%2C%20West%20Bengal%20700054!5e0!3m2!1sen!2sin!4v1673501118253!5m2!1sen!2sin" className='reach-ifram' allowFullScreen="" loading="lazy"></iframe>
                       </>
                     }
 
@@ -79,7 +90,7 @@ const Mapreach = () => {
                       connectivity &&
                       <>
 
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29480.376207004538!2d88.40550793190921!3d22.53991109952606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02743fd117bac1%3A0xf29bf89dface421d!2sKolkata%2C%20West%20Bengal%20700105!5e0!3m2!1sen!2sin!4v1673348632390!5m2!1sen!2sin" className='reach-ifram' allowFullScreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14735.709240707305!2d88.38692079282227!3d22.581821853869425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027673cba382d1%3A0x6f36097e0b219c10!2sKolkata%2C%20West%20Bengal%20700054!5e0!3m2!1sen!2sin!4v1673501118253!5m2!1sen!2sin" className='reach-ifram' allowFullScreen="" loading="lazy"></iframe>
                       </>
                     }
 
@@ -87,7 +98,7 @@ const Mapreach = () => {
 
                       office &&
                       <>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29480.376207004538!2d88.40550793190921!3d22.53991109952606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02743fd117bac1%3A0xf29bf89dface421d!2sKolkata%2C%20West%20Bengal%20700105!5e0!3m2!1sen!2sin!4v1673348632390!5m2!1sen!2sin" className='reach-ifram' allowFullScreen="" loading="lazy"></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14735.709240707305!2d88.38692079282227!3d22.581821853869425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027673cba382d1%3A0x6f36097e0b219c10!2sKolkata%2C%20West%20Bengal%20700054!5e0!3m2!1sen!2sin!4v1673501118253!5m2!1sen!2sin" className='reach-ifram' allowFullScreen="" loading="lazy"></iframe>
                    </>
                     }
 
@@ -97,8 +108,8 @@ const Mapreach = () => {
                   </div>
                 </div>
                 <div className='reach-right'>
-                  <h3> Location</h3>
-                  <h4 >Everything Within Reach</h4>
+                  <h3> {mapcontent.location_title}</h3>
+                  <h4 >{mapcontent.subtitle_map}</h4>
                   <div
                     defaultactivekey="School"
                     id="uncontrolled-tab-example"
@@ -115,7 +126,7 @@ const Mapreach = () => {
                     <div className='tablecontebts-map'>
                       {
                         school &&
-                        <School />
+                        <Hospital />
 
                       }
 

@@ -349,8 +349,8 @@ code {
 }
 
 section.qty-comfort {
-    background:#e5f6f0;
-    padding-top: 112px;
+    background:#f0ead8;
+    padding-top: 65px;
     padding-bottom: 80px;
     position: relative;
 }
@@ -445,6 +445,13 @@ h4 {
     font-weight: 800;
     font-family: "Red Hat Display";
 }
+.number-colm h4 {
+    font-size: 16px;
+    line-height: 23px;
+    color: #141414;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+}
 
 .img-icons {
     width: 80px;
@@ -498,7 +505,7 @@ section#building .swiper.swiper-initialized.swiper-horizontal.swiper-pointer-eve
 }
 
 .number-wrappers .number-colm {
-    width: 45%;
+    width: 50%;
     float: left;
     min-height: 200px;
     margin: 0 auto;
@@ -644,21 +651,21 @@ section#building .slide-contents h4 {
 .qty-text.sec-oness h4 {
     font-size: 40px;
     padding-left: 0px;
-    line-height: 40px;
+    line-height: 50px;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #154b37;
-    font-family: 'Playfair Display', serif;
+    color:#2d5033;
+    font-family: 'Lora', serif;
 }
 
 .qty-text.sec-oness h3 {
-    font-size: 20px;
-    color: #1d1d1d;
     margin-bottom: 5px;
     font-family: 'Red Hat Display', sans-serif;
-    line-height: 35px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1d1d1d;
+    font-weight: 900;
 }
-
 .slide-contents h4 {
     font-size: 22px;
     line-height: 25px;

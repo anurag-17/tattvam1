@@ -2,7 +2,7 @@ div#Topmob-sec {
   display: block;
   z-index: 9999999999;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.233);
+  background-color: rgb(40 40 40 / 55%);
 }
 
 body#Topmob-sec {
@@ -21,6 +21,11 @@ body#Topmob-sec {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+.is-sticky div#Topmob-sec {
+  background-color: rgb(0 0 0 / 64%);
+}
+
+
 #Topmob-sec .navbar-brand {
     width: 20%;
 }
@@ -34,19 +39,19 @@ body#Topmob-sec {
     padding: 0px;
 }
 #Topmob-sec .btn-rt .get-btn {
-    background-color: #154b37;
-    color: #fff;
-    border: none;
-    font-size: 14px;
-    padding: 7px 10px;
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: 600;
+  background-color: #abc383;
+  border: none;
+  padding: 13px 25px;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1d1d1d;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
 }
-.get-btn{
-  width: 150px;
-}
+
 .ul-dropdown{
-  width: 150px;
+  width: 160px;
   background-color: transparent; 
   border: none;
   
@@ -58,9 +63,15 @@ body#Topmob-sec {
 border-radius: 2px;
 margin-bottom: 3px;
 color: white;
-background-color: #154b37;
+background-color:#abc383;
 width: 150px;
   
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 1em;
+  vertical-align: 0.25em;
 }
 .slide_btn{
   padding: 0;
@@ -123,7 +134,7 @@ width: 150px;
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #000;
+  background-color: #abc383;
   transition-duration: .25s;
 }
 .menu__btn > span::before {
