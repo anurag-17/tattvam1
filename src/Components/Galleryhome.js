@@ -127,7 +127,6 @@ export default function App() {
     <>
       <section id='gallery'>
         <div className='container'>
-          <h4> {glyttl.gallery_title}</h4>
           <h3>{glyttl.gallery_subtitle}</h3>
           <div className='galley-main'>
             <div className='conatiner'>

@@ -153,10 +153,9 @@ section#Specifications.mobiles-lists {
     border-radius: 32px;
     width: 32px;
     height: 32px;
-    top: 40%;
+    top: 46%;
     font-size: 15px;
 }
-
 .home-top-banner {
     position: absolute;
     z-index: 0;
@@ -460,6 +459,7 @@ h4 {
     align-items: center;
     border-radius: 100%;
     justify-content: center;
+    border: 1px dashed #9b9b9b;
     margin-bottom: 15px;
 }
 
@@ -508,11 +508,11 @@ section#building .swiper.swiper-initialized.swiper-horizontal.swiper-pointer-eve
     width: 50%;
     float: left;
     min-height: 200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
 }
 
 .number-colm p {
@@ -620,11 +620,14 @@ section#building h4 {
     margin-bottom: 10px;
     margin-top: 0;
 }
-
-section#building {
-    padding-bottom: 50px;
+section#building h3 {
+    padding-top: 50px;
 }
 
+
+section#building {
+    padding-bottom: 15px;
+}
 section#building .slide-contents h4 {
     min-height: 40px;
     display: block;
